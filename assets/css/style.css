@@ -1,13 +1,16 @@
+/* universal selector targeting all elements, setting box-sizing, padding, and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* element selector, adding background color to entire body of webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* class selector targeting header, setting padding, font family, background color, and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* targeting all h1 elements that are children of the header class, setting display to inline block and font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* targeting the seo class that is a child of the h1 element within the header class. Setting text color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* targeting nav element that is a child in the header class, setting spacing, placement on page, font, and font size */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +38,25 @@ body {
     font-size: 20px;
 }
 
+/* targeting ul element that is a child of the nav element within the header class. Removing bullet points from list */
 .header nav ul {
     list-style-type: none;
 }
 
+/* targeting the li element that is a child of the ul element within the nav element within the header class. setting diplay and margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* targeting all anchor tags. setting text color and text decoration to none to remove styling */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* targeting the hero class. This is setting a packground image, and styling it accordingly */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +66,14 @@ a {
     background-position: center;
 }
 
+/* targeting the content class. setting width, display, and margin properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* targeting the card class. setting spacing, height, font, background color, and text color */
 .card {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,29 +83,35 @@ a {
     color: #ffffff;
 }
 
+/* targeting img elements that are a child within the card class section. setting max height */
 .card img {
     max-height: 200px;
 }
 
+/* targeting h2 elements that are a child within the card class section. setting margin and font-size */
 .card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* targeting all p elements. setting font-size */
 p {
     font-size: 16px;
 }
 
+/* targeting the float-left class. setting the area on the page so that it is on the left and the margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* targeting the float-right class. setting the area on the page so that it is on the right and the margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* targeting the benefits-aside class. Setting spacing, area on the page, font family, and background color */
 .benefits-aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +123,26 @@ p {
     background-color: #2589bd;
 }
 
+/* targeting the benfit class. setting margin and font color */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* targeting the h3 elements that are a child of the benefit class. setting margin and aligning the text to the center */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* targeting the img elements that are a child of the benefit class. setting display property, margin, and max-width */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* targeting the footer class. setting the spacing, placement, font family, and aligning the text to the center  */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +150,7 @@ p {
     text-align: center;
 }
 
+/* targeting the h4 element that is a child within the footer class. setting the font size */
 .footer h4 {
     font-size: 20px;
 }
